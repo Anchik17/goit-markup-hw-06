@@ -1055,9 +1055,10 @@ img {
 @media screen and (min-width: 768px) {
   .list-portfolio {
     flex-direction: row;
-        flex-wrap: wrap;
-        row-gap: 72px;
-        column-gap: 24px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      row-gap: 72px;
+      column-gap: 24px;
   }
 
   .list-portfolio-item {
