@@ -130,7 +130,6 @@ img {
 
 /* -===================mob-menu=============== */
 
-
 .mob-menu {
   width: 100vw;
   height: 100vh;
@@ -200,7 +199,7 @@ img {
 
 .mob-address-link:hover,
 .mob-nav-link:focus {
-  color: #4D5AE5;
+  color: #4d5ae5;
 }
 
 .mob-icon-list {
@@ -329,24 +328,23 @@ img {
   text-transform: capitalize;
 }
 
-.list-title {
+.advantages-title {
   color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 8px;
 }
 
-.list-text {
-  color: #434455;
-  font-family: Roboto;
+.advantages-text {
+  font-weight: 500;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*===================section team==================*/
@@ -374,6 +372,23 @@ img {
 
 .name-team .list-text {
   margin-bottom: 8px;
+}
+
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2E2F42;
+}
+
+.list-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .list-team {
@@ -1032,6 +1047,10 @@ img {
   .list-advantages-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .advantages-title {
+    text-align: start;
+  }
 }
 
 /* ===========Desktop============== */
@@ -1061,12 +1080,16 @@ img {
     margin-bottom: 8px;
   }
 
-  .list-title {
+  .advantages-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: start;
+  }
+
+  .advantages-text {
+    font-weight: 400;
   }
 }
 
@@ -1201,6 +1224,10 @@ img {
   .footer-text-sub {
     text-align: start;
   }
+
+  .footer-text-media {
+    text-align: start;
+  }
 }
 
 /* ===========Desktop============== */
@@ -1216,6 +1243,7 @@ img {
     align-items: baseline;
     flex-direction: row;
     flex-wrap: nowrap;
+    gap: unset;
     margin: 0 auto;
   }
 
@@ -1224,7 +1252,7 @@ img {
   }
 
   .container-footer-media {
-    margin-right: 80px;
+    margin-right: auto;
   }
 }
 
